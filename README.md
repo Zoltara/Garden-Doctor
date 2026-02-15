@@ -38,3 +38,8 @@ Garden Doctor is a modern, AI-powered botanical companion that helps you identif
 - **Styling**: Vanilla CSS (Modern custom properties & Glassmorphism).
 - **Backend**: Node.js (Vercel Serverless Functions).
 - **AI**: Gemini 2.0 Flash via OpenRouter.
+
+
+***********   If run locally:
+***********    npm run dev
+***********    npm run backend
