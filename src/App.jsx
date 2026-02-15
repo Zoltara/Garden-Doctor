@@ -98,7 +98,7 @@ function App() {
         >
           {theme === 'dark' ? <SunMedium size={24} /> : <Moon size={24} />}
         </button>
-        <h1>Garden Doctor</h1>
+        <h1>Garden Doctor (v1.1)</h1>
         <p>Your AI botanical companion</p>
       </header>
 
