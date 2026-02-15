@@ -1,16 +1,40 @@
-# React + Vite
+# 🌿 Garden Doctor AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Garden Doctor is a modern, AI-powered botanical companion that helps you identify plants and diagnose health issues from a single photograph.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Plant Identification**: Accurately identifies thousands of plant species.
+- **Health Diagnosis**: Detects symptoms of disease, pests, or nutrient deficiencies.
+- **Care Instructions**: Provides tailored advice for light, water, and temperature.
+- **Premium Design**: Sleek, nature-inspired interface with Dark/Light mode support.
+- **Vercel Optimized**: Ready for instant deployment using serverless functions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Deployment (Vercel)
+1. **Push to GitHub**:
+   - Create a new repository on GitHub.
+   - Run `git remote add origin YOUR_URL`
+   - Run `git branch -M main`
+   - Run `git push -u origin main`
 
-## React Compiler
+2. **Connect to Vercel**:
+   - Import your GitHub repository into Vercel.
+   - **Important**: Add the following Environment Variable in the Vercel Dashboard:
+     - `OPENROUTER_API_KEY`: Your OpenRouter API key.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Local Development
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Set up environment:
+   - Create a `.env` file with `OPENROUTER_API_KEY`.
+3. Start the app:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Tech Stack
+- **Frontend**: React, Vite, Framer Motion, Lucide Icons.
+- **Styling**: Vanilla CSS (Modern custom properties & Glassmorphism).
+- **Backend**: Node.js (Vercel Serverless Functions).
+- **AI**: Gemini 2.0 Flash via OpenRouter.
