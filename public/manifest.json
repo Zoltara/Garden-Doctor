@@ -1,0 +1,17 @@
+{
+    "name": "Garden Doctor AI",
+    "short_name": "Garden Doctor",
+    "description": "AI Botanical Companion",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#121412",
+    "theme_color": "#4a5d4c",
+    "icons": [
+        {
+            "src": "/leaf-icon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
