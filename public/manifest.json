@@ -1,20 +1,20 @@
 {
     "name": "Garden Doctor AI",
     "short_name": "Garden Doctor",
-    "description": "AI Botanical Companion",
+    "description": "AI Botanical Companion - Take a photo of a plant the the App will tell you if it's healthy or not and give you tips to make it healthier",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#121412",
     "theme_color": "#4a5d4c",
     "icons": [
         {
-            "src": "./icons/icon.png",
+            "src": "icons/icon.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "./icons/icon-180.png",
+            "src": "icons/icon-180.png",
             "sizes": "180x180",
             "type": "image/png"
         }
